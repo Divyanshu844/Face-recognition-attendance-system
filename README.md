@@ -3,7 +3,7 @@
 
 A Python-based desktop application that automates the student attendance process using real-time facial recognition. This system uses **OpenCV**, **Tkinter**, **MySQL**, and **CSV** integration to provide a seamless, contactless attendance experience for institutions.
 
----
+
 
 ## 📸 Features
 
@@ -15,7 +15,7 @@ A Python-based desktop application that automates the student attendance process
 - 📋 GUI for managing students and attendance
 - 💾 Integration with **MySQL database**
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -28,21 +28,32 @@ A Python-based desktop application that automates the student attendance process
 | Image Handling| Pillow (PIL)                   |
 | Data Storage  | CSV files                      |
 
----
+
 
 ## 📁 Project Structure
 
 FaceRecognitionAttendance/
+
 ├── data/ # Captured student images
+
 ├── haarcascade_frontalface_default.xml
+
 ├── classifier.xml # Trained LBPH model
+
 ├── divyanshu.csv # Attendance log (CSV format)
+
 ├── student.py # Student management module
+
 ├── train.py # Training model script
+
 ├── face_recognition_data.py # Face detection & recognition logic
+
 ├── attendance.py # Attendance tracking and GUI
+
 ├── main.py # Main GUI application
+
 └── images/ # UI images and icons
+
 
 
 
